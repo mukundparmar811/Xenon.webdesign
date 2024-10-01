@@ -1,0 +1,1236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.br {
+    border: 4px solid red;
+}
+
+.bk {
+    border: 4px solid black;
+}
+
+.bb {
+    border: 4px solid blue;
+}
+
+.bg {
+    border: 4px solid green;
+}
+
+.by {
+    border: 4px solid gold;
+}
+
+.bm {
+    border: 4px solid magenta
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    /* border: 3px solid black; */
+    background-color: rgba(0, 0, 0, 0.968) !important;
+}
+
+.navbar-brand img {
+    width: 50px;
+    /* border: 2px solid red; */
+}
+
+
+.navbar-nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.nav-link {
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: white;
+    /* border: 2px solid blue; */
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+.first-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgba(0, 0, 0, 0.968);
+    border-bottom-left-radius: 100px;
+}
+
+.first-section h1 {
+    font-size: 90px;
+    color: white;
+    padding-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.first-con {
+    height: auto !important;
+    width: 95%;
+}
+
+.cards {
+    height: 100%;
+    color: white;
+}
+
+.cards p {
+    width: 80%;
+    color: rgba(255, 255, 255, 0.821);
+}
+
+.cards span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.but {
+    height: 70px;
+    width: 230px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid greenyellow;
+    background-color: white;
+    transition: .3s all ease-in-out;
+}
+
+.but:hover {
+    background-color: rgb(32, 166, 17);
+    transition: .3s all ease-in-out;
+}
+
+.but button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(66, 152, 29);
+    transition: .3s all ease-in-out;
+}
+
+.but button:hover {
+    background-color: white;
+    transition: .3s all ease-in-out;
+}
+
+.fa-arrow-right {
+    color: black;
+    font-size: 30px;
+}
+
+/* -----------------------------------------second section------------------------------------------ */
+
+.second-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: ghostwhite;
+}
+
+.second-section h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.second-section button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(66, 152, 29);
+    height: 60px;
+
+}
+
+.second-section i {
+    rotate: 310deg;
+
+}
+
+.second-section p {
+    text-align: center;
+}
+
+.sec-text {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 3px solid red; */
+}
+
+.text1 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 4px solid rgb(105, 213, 58);
+    box-shadow: rgba(128, 128, 128, 0.132) 5px 5px 5px 5px;
+    transition: .5s all ease-in-out;
+
+
+}
+
+.text1:hover {
+    background-color: rgb(9, 189, 39);
+    color: white;
+    scale: 0.9;
+    transition: .5s all ease-in-out;
+
+}
+
+.text1 h4 {
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text2 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 4px solid white;
+    background-color: ghostwhite;
+    box-shadow: rgba(128, 128, 128, 0.132) 5px 5px 5px 5px;
+    transition: .5s all ease-in-out;
+
+
+}
+
+.text2:hover {
+    background-color: rgb(9, 189, 39);
+    color: white;
+    scale: 0.9;
+    transition: .5s all ease-in-out;
+}
+
+.text2 h4 {
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* ----------------------------------------third-section----------------------------------------- */
+
+.third-section {
+    height: auto;
+    background-color: ghostwhite;
+}
+
+.third {
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 50px;
+    gap: 15px;
+    background-color: white;
+    transition: 1s all ease-in-out;
+
+}
+
+.card1:hover {
+    scale: 0.9;
+    transition: 1s all ease-in-out;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.card1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.but2 {
+    height: 55px;
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    border: 3px solid greenyellow;
+    background-color: white;
+}
+
+.but2:hover {
+    background-color: rgb(32, 166, 17);
+    transition: .3s all ease-in-out;
+}
+
+.but2 button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(66, 152, 29);
+}
+
+.but2 button:hover {
+    background-color: white;
+    transition: .3s all ease-in-out;
+}
+
+.fa-arrow-right {
+    color: black;
+    font-size: 30px;
+}
+
+/* -----------------------------------------fourth section----------------------------------------------- */
+
+.fourth-section {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.fourth {
+    height: 100%;
+    width: 99% !important;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+
+
+}
+
+.fourth-left {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid black; */
+}
+
+.left-text {
+    height: 200px;
+}
+
+.left-text h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-card-con {
+    width: 90%;
+    height: 200px;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card-left {
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid blue; */
+}
+
+.card-right {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+.fourth-right {
+    height: auto;
+    width: 40%;
+    /* border: 2px solid green; */
+}
+
+.card-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom-card-con {
+    height: auto;
+    width: 100%;
+}
+
+.cardz1 {
+    width: 430px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    transition: 1s all ease-in-out;
+
+}
+
+.cardz1:hover {
+    background-color: rgb(56, 51, 51);
+    color: white;
+    transition: 1s all ease-in-out;
+}
+
+.cardz2 {
+    width: 300px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid blue; */
+
+}
+
+.cardz2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    transition: 1s all ease-in-out;
+
+}
+
+.cardz2 img:hover {
+    scale: 1.1;
+    transition: 1s all ease-in-out;
+}
+
+.right-card1 {
+    width: 90%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    gap: 10px;
+    overflow: hidden;
+    transition: 1s all linear;
+
+}
+
+.right-card1:hover {
+    scale: 1.1;
+    transition: 1s all linear;
+}
+
+.top-right {
+    width: 90%;
+    height: 130px;
+    /* border: 1px solid gray; */
+}
+
+.top-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.bottom-right {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    /* border: 2px solid gold; */
+}
+
+.right-card2 {
+    width: 90%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 1s all linear;
+
+}
+
+.right-card2:hover {
+    scale: 1.1;
+    transition: 1s all linear;
+}
+
+.left-side {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    /* border: 2px solid green; */
+
+}
+
+.right-side {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.right-side img {
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* -------------------------------------fifth section---------------------------------------------- */
+
+.fifth-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.text-div {
+    height: auto;
+    width: 100%;
+}
+
+.text-left {
+    width: 65%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+.text-left span {
+    font-size: 25px;
+    color: gray;
+}
+
+.text-left h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.text-right {
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.star i {
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
+.fifth-card-con {
+    height: auto;
+    gap: 50px;
+    width: 100%;
+}
+
+.fifth-card {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: rgb(243, 239, 239) 10px 10px;
+    transition: 1s all linear;
+
+}
+
+.fifth-card:hover {
+    scale: 0.9;
+    transition: 1s all linear;
+}
+
+.fifth-bottom {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-div img {
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.later-div {
+    width: 80%;
+    /* display: flex; */
+    position: relative;
+    /* border: 2px solid blue; */
+}
+
+.arrow {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 100px;
+    /* border: 3px solid red; */
+
+}
+
+.arrow i {
+    padding: 20px 20px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.fa-arrow-left {
+    font-size: 25px;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.arrow button {
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------sixth section-------------------------------------------------------- */
+
+.sixth-section {
+    height: auto;
+    background-color: ghostwhite;
+}
+
+.sixth {
+    height: auto;
+    width: 90% !important;
+}
+
+.card-div {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.card-div img {
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    object-fit: cover;
+    /* border: 2px solid red; */
+}
+
+.sixth-right button {
+    padding: 15px 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(23, 180, 23);
+    transition: 1s all linear;
+
+
+}
+
+.sixth-right button:hover {
+    background-color: rgb(41, 170, 41);
+    color: white;
+    transition: 1s all linear;
+}
+
+.card-div2 {
+    height: 250px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-div2 img {
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* -------------------------------------seventh section--------------------------------------- */
+
+.seventh-section {
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.seventh-card-con {
+    height: 300px;
+    width: 98%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.up-box {
+    height: 150px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.card-sec {
+    width: 650px;
+    height: 85%;
+    display: flex;
+    gap: 30px;
+
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    transition: .3s all linear;
+
+}
+
+.square:hover {
+    background-color: rgb(58, 210, 58);
+    color: white;
+    transition: .3s all linear;
+}
+
+.down-box {
+    height: 150px;
+    width: 100%;
+    display: flex;
+
+}
+
+.box {
+    width: 90%;
+    height: 85%;
+    gap: 30px;
+}
+
+
+/* -------------------------------------------------Eighth section---------------------------------------------- */
+
+.eighth-section {
+    min-height: auto;
+    background-color: ghostwhite;
+}
+
+.eight-text {
+    height: auto !important;
+    /* border: 3px solid blue; */
+}
+
+.btn-8 {
+    height: auto;
+}
+
+.btn-8 button {
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .3s all linear;
+
+}
+
+.btn-8 button:hover {
+    background-color: white;
+    border: 3px solid rgb(13, 201, 13);
+    transition: .3s all linear;
+
+}
+
+.eight-card-con {
+    height: auto;
+    background-color: ghostwhite;
+}
+
+/* -----------------ninth-section-------------------- */
+
+.ninth-section {
+    min-height: 100vh;
+    background-color: ghostwhite;
+}
+
+.ninth {
+    min-height: 700px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.ninth-text {
+    min-height: 120px;
+}
+
+.ninth-con {
+    min-height: 600px;
+}
+
+/* --------------------------------------tenth section----------------------------------------- */
+
+.tenth-section {
+    min-height: 100vh;
+    background-color: ghostwhite;
+
+}
+
+.tenth-card-con {
+    min-height: 600px;
+    width: 100%;
+}
+
+.card-tenth {
+    min-height: 90%;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+
+.first {
+    overflow: hidden;
+}
+
+.first img:hover {
+    scale: 1.1;
+    transition: .5s all linear;
+}
+
+.second {
+    overflow: hidden;
+}
+
+.second img:hover {
+    scale: 1.1;
+    transition: .5s all linear;
+}
+
+.card-tenth button {
+    padding: 10px 60px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #5cd85e;
+}
+
+/* -------------------------------elevan section-------------------------------------- */
+
+.elevan-section {
+    min-height: 900px;
+    background-color: ghostwhite;
+}
+
+.elevan-card-con {
+    min-height: 650px;
+}
+
+.elevan-text {
+    min-height: 400px;
+    border-radius: 30px;
+    background-color: ghostwhite;
+}
+
+.elevan-text button:hover {
+    background-color: #5cd85e !important;
+    transition: .5s all linear;
+}
+
+.one-div {
+    min-height: 100px;
+    display: flex;
+
+}
+
+/* -------------------------elevan section----------------------------- */
+
+.twelve-section {
+    min-height: 100vh;
+    background-color: ghostwhite;
+}
+
+.twelve-text {
+    min-height: 200px;
+    padding: 0 50px;
+}
+
+.twelve-card-con {
+    min-height: 600px;
+}
+
+.twelve-cards {
+    min-height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.twelve-one {
+    height: 180px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 0 20px;
+}
+
+/*---------------------------thirteen section--------------------------------------- */
+
+.thirteen-section {
+    min-height: 800px;
+    background-color: ghostwhite;
+}
+
+.top-thirteen {
+    min-height: 900px;
+    background-color: black;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.up-div {
+    min-height: 400px !important;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid gray;
+}
+
+.down-div {
+    min-height: 250px;
+    padding: 0 100px;
+}
+
+.down-two button {
+    padding: 50px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    transition: .5s all linear;
+    border: 2px solid rgba(255, 255, 255, 0.463);
+}
+
+.down-two button:hover {
+    background-color: #5cd85e;
+    transition: .5s all linear;
+}
+
+/* -------------------------forteen section-------------------------------- */
+
+.forteen-section {
+    min-height: 600px;
+    background-color: ghostwhite;
+
+}
+
+.forteen {
+    min-height: 550px;
+}
+
+.forteen-1 a {
+    color: rgba(0, 0, 0, 0.773);
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .first-section h1 {
+        font-size: 35px !important;
+    }
+
+    .second-section h1 {
+        font-size: 3.5vw;
+        /* display: none; */
+    }
+
+
+    .third {
+        margin-top: 200px;
+    }
+
+    .fourth-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .left-text h1 {
+        font-size: 32px;
+    }
+
+    .top-card-con {
+        width: 100%;
+    }
+
+    .card-left h3 {
+        font-size: 18px;
+    }
+
+    .cardz2 {
+        width: 100%;
+    }
+
+    .fourth-section {
+        margin-top: 170px;
+    }
+
+    .fourth-right {
+        width: 100%;
+    }
+
+    .text-div {
+        width: 100% !important;
+    }
+
+    .text-left {
+        width: 100%;
+
+    }
+
+    .text-left span {
+        font-size: 18px;
+    }
+
+    .text-left h1 {
+        font-size: 40px;
+        display: none;
+    }
+
+    .arrow {
+        padding: 10px;
+    }
+
+    .text-right {
+        width: 100%;
+    }
+
+    .sixth {
+        width: 100% !important;
+    }
+
+    .sixth-left {
+        width: 100% !important;
+    }
+
+    .sixth-left h1 {
+        font-size: 35px !important;
+    }
+
+    .card-div2 {
+        width: 100%;
+    }
+
+    .eighth-section {
+        height: 250vh;
+    }
+
+    .eight-text h1 {
+        font-size: 35px !important;
+    }
+
+    .eight-left h1 {
+        font-size: 20px !important;
+    }
+
+    .eight-left p {
+        font-size: 15px;
+    }
+
+    .eight-right h1 {
+        font-size: 20px !important;
+    }
+
+    .eight-right p {
+        font-size: 15px;
+    }
+
+    .ninth-text h1 {
+        font-size: 20px !important;
+    }
+
+    .tenth-text h1 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+    .elevan-section {
+        padding: 0 !important;
+    }
+
+    .elevan h1 {
+        font-size: 35px !important;
+
+    }
+
+    .seventh-card-con {
+        width: 100% !important;
+    }
+
+    .elevan-text {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-evenly !important;
+    }
+
+    .twelve-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .down-div {
+        min-height: 400px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (max-width:432px) {
+
+    .first-section {
+        padding: 10px !important;
+    }
+
+    .third-section {
+        min-height: auto;
+        /* border: 2px solid blue; */
+        padding: 10px !important;
+    }
+
+    .third {
+        min-height: auto;
+        padding: 0;
+        /* border: 2px solid red; */
+    }
+
+    .fourth-section {
+        min-height: auto;
+        padding-top: 50px;
+        /* border: 2px solid red; */
+    }
+
+    .cardz1 {
+        width: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .eighth-section {
+        /* border: 2px solid blue; */
+        height: auto;
+    }
+
+   
+    .up-left h1 {
+        margin-top: 50px;
+        font-size: 35px !important;
+    }
+    .up-left p{
+        font-size: 20px !important;
+    }
+    .down-two{
+        width: 100% !important;
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+    }
+    .cd h1{
+        display: flex;
+        margin-left: 0 !important;
+        /* border: 2px solid red; */
+    }
+
+}
